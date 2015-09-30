@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Semantic Web Assignment 4</title>
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
+	</head>
+    <div id="nav">
+         <h3>Semantic Web Assignment 4 <small>My Pizza Ontology</small></h3>
+					
+    </div>
+	<body> 
+        
+		<div class="container">
+		  <div class="container_1">
+					<p>Welcome to my <strong>Semantic Web application</strong>! With the help of this application you can send a SPARQL query to my custom Stardog triple store containing the ontology from <a href ="https://bb.vu.nl/webapps/blackboard/execute/content/file?cmd=view&content_id=_2316725_1&course_id=_106821_1&framesetWrapped=true">this link</a>. It's a pizza ontology and the box below can be utilised to send your own query to the Stardog triple store. Furthermore you can click the buttons to check the difference between queries with inferencing and without inferencing! The output of the query will show up to the right.</p>
+				
+            <textarea id='query14' class='sparql', rows='5'>
+ </textarea>
+              <div id="text_2"> 
+					<p>Click the <strong>button</strong> below to <em>GET</em> the query to our triple store. You can either choose to run the query with or without inferencing. No worries, you can swap to and fro as much as you like.</p>
+                  </div>
+					<div class="buttons">
+                        <ul>
+                            <li><div><a id="link14" class='btn btn-primary'><strong>without</strong> inferencing</a></div></li>
+
+                            <li><div><a id="link15" class='btn btn-primary'><strong>with inferencing</strong></a></div></li>
+                        </ul>
+                    </div>
+              <div id="text_3">
+              <p> The <strong>difference</strong> in results exists because with the use of inferencing the reasoner uses information already known from within the ontology to infer 'new' information. The query uses logic to infer information. This is why there are more results when applying inferencing. You can see for yourself using this application.
+                  
+                  </p>
+              </div>
+         </div>	
+        <div class="container_2">
+				
+				<div class='col-lg-6'>
+<!--					<h3>Output</h3>-->
+					<div id="linktarget14" class='well' style='scroll: both;'>This is where the server response will appear.</div>
+				</div>
+            </div>
+		
+</div>
+		<script src='{{ url_for("static", filename="js/jquery-1.11.0.min.js") }}' type='text/javascript'></script>
+		<script src='{{ url_for("static", filename="js/tutorial.js") }}' type='text/javascript'></script>
+
+
+	</body>
+ 
+<div id="nav_bot">
+         <h3><small>Mitchell Kuin - 10764631</small></h3>
+					
+</div>

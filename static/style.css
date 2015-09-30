@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(233, 234, 237);
+    
+    margin-left: 20%;
+    margin-right: 20%;
+}
+html {
+    margin-top:0;
+}
+.container {
+    width: 100%;
+    margin-top: 50px;
+ 
+   
+}
+.container p{
+    width: 500px;
+    margin-top:50px;
+    
+}
+
+.well {
+    height: 15em; 
+    background-color: white;
+    overflow: auto;
+  
+}
+
+
+
+#nav {
+    text-align: center;
+    top:0;
+    color: floralwhite;
+    background-color: rgba(0, 0,0,0.6);
+    margin-top:0;
+    
+    width: 100%;
+    position: fixed;
+    
+    
+}
+#nav h3{
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+#nav_bot {
+    text-align: center;
+    bottom:0;
+    color: floralwhite;
+    background-color: rgba(0, 0,0,0.6);
+    margin-top:0;
+    
+    width: 100%;
+    position: fixed;
+    
+    
+}
+#nav_bot h3{
+    margin-top: 0px;
+    padding-top:0px;
+}
+.sparql{
+    width:490px;
+    height: 100px;
+}
+.container_1 {
+    display: inline;
+    float:left;
+    margin-left: 30px;
+    margin-right:0px;
+}
+.container_2 {
+   
+    display: inline;
+    margin-left:40px;
+    float:left;  
+    margin-top:50px;
+}
+.container_2 h3 {
+    margin-top:0;
+}
+#linktarget14 {
+    width: 500px;
+    height: 450px;
+}
+#text_2 p{
+    margin-top:0px;
+}
+.buttons ul{
+    padding-left:0;
+    margin-left:0;
+    margin:0;  
+    float:left;
+}
+.buttons li{
+    display: inline;
+    float:left;
+    padding-right:40px;
+}
+#text_3 p{
+    text-align: left;
+    padding-top:8px;
+}
